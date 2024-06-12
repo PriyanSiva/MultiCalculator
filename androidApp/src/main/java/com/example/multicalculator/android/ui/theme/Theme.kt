@@ -7,27 +7,21 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = Blue200,
+    primaryVariant = Blue700,
+    secondary = Green200
 )
 
-private val LightColorPalette = lightColors(
-    primary = Purple500,
-    primaryVariant = Purple700,
-    secondary = Teal200
+private val colorPalette = lightColors(
+    primary = Blue500,
+    primaryVariant = Blue700,
+    secondary = Green200
 )
 
 @Composable
-fun MultiCalculatorTheme(darkTheme: Boolean = false, content: @Composable () -> Unit) {
-    val colors = if (darkTheme) {
-        DarkColorPalette
-    } else {
-        LightColorPalette
-    }
-
+fun MultiCalculatorTheme(content: @Composable () -> Unit) {
     MaterialTheme(
-        colors = colors,
+        colors = colorPalette,
         typography = Typography,
         shapes = Shapes,
         content = content

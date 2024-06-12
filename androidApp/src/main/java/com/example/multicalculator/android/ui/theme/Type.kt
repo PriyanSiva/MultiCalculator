@@ -9,6 +9,6 @@ val Typography = Typography(
     body1 = androidx.compose.ui.text.TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 14.sp
     )
 )

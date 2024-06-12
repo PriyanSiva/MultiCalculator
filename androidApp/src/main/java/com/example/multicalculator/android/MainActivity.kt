@@ -137,20 +137,20 @@ fun CalcEqualsButton(display: MutableState<String>) {
 }
 
 
-@Composable
-fun titleView(): String  {
-    return "Calculator"
-}
+//@Composable
+//fun titleView(): String  {
+//    return "Calculator"
+//}
 
-@Composable
-fun CalculatorView(label: String, numbers: String, result: String) {
-    Text(text = "$label ($numbers) = $result")
-}
-
-@Preview
-@Composable
-fun DefaultPreview() {
-    MyApplicationTheme {
-        CalculatorView("Hello, Android!", "1,2","Calculator")
-    }
-}
+//@Composable
+//fun CalculatorView(label: String, numbers: String, result: String) {
+//    Text(text = "$label ($numbers) = $result")
+//}
+//
+//@Preview
+//@Composable
+//fun DefaultPreview() {
+//    MyApplicationTheme {
+//        CalculatorView("Hello, Android!", "1,2","Calculator")
+//    }
+//}
